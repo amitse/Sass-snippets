@@ -18,7 +18,7 @@ CSS Class Name :
 ``` html
 <div class="m-x-10 p-t-0"></div> <!-- margin-left and margin-right :10; padding-top : 0; -->
 ```
->Absolute numbers (5/10/15) could be replaced by bootstrap semantic sizes (xs/sm/md/lg/xl/xxl) to create semantic spacing snippets.
+>Absolute numbers (5/10/15) could be replaced by bootstrap semantic sizes (xs/sm/md/lg/xl/xxl) to create semantic spacing classes.
 >Like m-x-lg p-y-sm.
 
 ``` scss
