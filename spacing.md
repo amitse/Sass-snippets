@@ -1,26 +1,5 @@
 # Spacing
 
-This snippets will create css classes for spacing (margin and padding)
-CSS Class Name : 
-```
-(spacing-type)-(direction)-(size)
-```
-
-##Description
-###spacing-type 
-```[“m” for margin / “p” for padding]```
-###direction 
-```[“a” for all / “t” for top /b” for bottom /”r” for right /”l” for left /”x” for left and right /”y” for top and bottom]```
-###size
-```[0 / 5 / 10 / 15 / 20 / 30 / "auto" for auto]```
-
-##Example
-``` html
-<div class="m-x-10 p-t-0"></div> <!-- margin-left and margin-right :10; padding-top : 0; -->
-```
->Absolute numbers (5/10/15) could be replaced by bootstrap semantic sizes (xs/sm/md/lg/xl/xxl) to create semantic spacing classes.
->Like m-x-lg p-y-sm.
-
 ``` scss
 $spacer: 5px !default;
 $spacer-x: $spacer !default;
@@ -71,3 +50,24 @@ auto: ( x: auto, y: auto ),
     }
 }
 ```
+
+This snippets will create css classes for spacing (margin and padding)
+CSS Class Name : 
+```
+(spacing-type)-(direction)-(size)
+```
+
+##Description
+###spacing-type 
+```[“m” for margin / “p” for padding]```
+###direction 
+```[“a” for all / “t” for top /b” for bottom /”r” for right /”l” for left /”x” for left and right /”y” for top and bottom]```
+###size
+```[0 / 5 / 10 / 15 / 20 / 30 / "auto" for auto]```
+
+##Example
+``` html
+<div class="m-x-10 p-t-0"></div> <!-- margin-left and margin-right :10; padding-top : 0; -->
+```
+>Absolute numbers (5/10/15) could be replaced by bootstrap semantic sizes (xs/sm/md/lg/xl/xxl) to create semantic spacing classes.
+>Like m-x-lg p-y-sm.
