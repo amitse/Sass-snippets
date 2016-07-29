@@ -1,6 +1,8 @@
 # SASS Snippets
 ## Table of Contents
 1. [Spacing](#spacing)
+
+
 ## Spacing
 
 ### Snippet
