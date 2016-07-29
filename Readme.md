@@ -1,12 +1,10 @@
 # SASS Snippets
 ## Table of Contents
-* [Spacing](#spacing)
-
-
-
+1. [Spacing](#spacing)
 ## Spacing
 
-``` scss
+### Snippet
+``` scss 
 $spacer: 5px !default;
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
@@ -55,28 +53,21 @@ auto: ( x: auto, y: auto ),
         }
     }
 }
-```
+```          
 
-This snippets will create css classes for spacing (margin and padding)
-CSS Class Name : 
-```
-(spacing-type)-(direction)-(size)
-```
+### Usage
+Creates css classes for spacing (margin and padding)  
+CSS Class Name : `(spacing-type)-(direction)-(size)`
+* Spacing-type: `m` for margin or `p` for padding.
+* Direction:
+  * `t`,`b`,`l` or `r` (for top, bottom left or right). 
+  * `x` for top and bottom,`y` for top and bottom.
+* Size: `0`, `auto`, `5`, `10`, `15`, `20`, `30` (in px)  
 
-###Description
-####spacing-type 
-```[“m” for margin / “p” for padding]```
-####Direction 
-```[“a” for all / “t” for top /b” for bottom /”r” for right /”l” for left /”x” for left and right /”y” for top and bottom]```
-####size
-```[0 / 5 / 10 / 15 / 20 / 30 / "auto" for auto]```
-
-###Example
 ``` html
 <div class="m-x-10 p-t-0"></div> <!-- margin-left and margin-right :10; padding-top : 0; -->
 ```
->Absolute numbers (5/10/15) could be replaced by bootstrap semantic sizes (xs/sm/md/lg/xl/xxl) to create semantic spacing classes.
->Like m-x-lg p-y-sm.
   
+
 **[Back to top](#table-of-contents)**
 
